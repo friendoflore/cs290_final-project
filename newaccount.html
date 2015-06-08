@@ -1,0 +1,33 @@
+<DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="icon" type="image/png" href="favicon.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="favicon.png" sizes="16x16">
+		<meta charset="utf-8"/>
+		<title>Final Project</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header_box">
+				<a href="public.php"><div id="home_button"><img id="home_icon" src="home_icon.png" width="37px" height="40px"></div></a>
+				<div id="create_page_head">Create Account</div>
+				<div id="login_box">
+					<a href="login.php"><div id="login">Login</div></a>
+				</div>
+			</div>
+			<div id="page_content_box">
+				<div id="main_content_box">
+					<form id="create_account">
+						<input type="text" name="new_username" id="new_username" placeholder="Username" /><br />
+						<input type="password" name="new_password" id="new_password" placeholder="Password" /><br />
+						<input type="password" name="new_password_confirm" id="new_password_confirm" placeholder="Confirm password" /><br />
+						<button type="button" id="submit_button">Create Account</button><br />
+					</form><br />
+					<div id="response_box"></div>
+					<script type="text/javascript" src="validate.js"></script>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
