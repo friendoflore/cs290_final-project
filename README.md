@@ -7,4 +7,4 @@ post is modified or deleted by the user, the article changes in public viewing a
 
 Usernames are not case sensitive, as this allows users to use unique email addresses for usernames.
 
-This project was created for Oregon State University's **CS 290 Final Project**
+This project was created for Oregon State University's **CS 290 Final Project**.
